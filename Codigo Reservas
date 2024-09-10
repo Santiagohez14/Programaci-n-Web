@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Planta Cervecería</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="La Planta Cervecería Logo" class="logo">
+        </div>
+    </header>
+    
+    <main>
+        <section class="choose-location">
+            <h1>Escoge Tu Sede:</h1>
+            <p>Tenemos Más De Una Sede, Para Continuar, Debes Seleccionar En Cual Quieres Realizar Tu Reserva:</p>
+            
+            <div class="locations">
+                <div class="location-card">
+                    <h2>LA PLANTA - CERVECERÍA</h2>
+                    <p><i class="fas fa-map-marker-alt"></i> Calle 164 # 20 - 09</p>
+                    <p><i class="fas fa-phone"></i> 3188125476</p>
+                </div>
+                <div class="location-card">
+                    <h2>LA PLANTA - CERVECERÍA</h2>
+                    <p><i class="fas fa-map-marker-alt"></i> Calle 30 # 44 - 176</p>
+                    <p><i class="fas fa-phone"></i> 3005905410</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <section class="newsletter">
+            <h3>Suscríbete a nuestro boletín cervecero</h3>
+            <p><input type="checkbox"> He leído y acepto la política de protección de datos</p>
+        </section>
+        
+        <section class="legal">
+            <div class="legal-links">
+                <a href="#">Política de Protección de Datos Personales</a>
+                <a href="#">Política de cookies</a>
+                <a href="#">Autorización de Contacto</a>
+                <a href="#">Autorización Clientes</a>
+                <a href="#">Estados Financieros</a>
+                <a href="#">Línea de transparencia</a>
+            </div>
+        </section>
+        
+        <section class="contact-info">
+            <p><strong>Líneas de Contacto</strong></p>
+            <p><i class="fas fa-phone"></i> +57 318 816 9333</p>
+            <p><i class="fas fa-envelope"></i> info@laplantacerveceria.com</p>
+            <p>Calle 164 # 20-09 Bogotá D.C.</p>
+            <p>Calle 30 # 44-176 Medellín, Colombia</p>
+        </section>
+    </footer>
+</body>
+</html>
