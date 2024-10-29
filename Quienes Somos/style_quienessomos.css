@@ -121,6 +121,17 @@ section {
 .redes {
     margin: 20px 0;
 }
+.redes a {
+    color: white; 
+    font-size: 24px; 
+    margin: 0 10px; 
+    transition: color 0.3s ease; /*animacion de color*/
+}
+/*animacion del color*/
+.redes a:hover {
+    color: #DF5800; 
+}
+
 
 .redes a img {
     width: 40px;
