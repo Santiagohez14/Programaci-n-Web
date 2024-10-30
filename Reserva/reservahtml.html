@@ -2,17 +2,17 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style_quienessomos.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>La Planta Cervecería</title>
+    <link rel="stylesheet" href="style_reserva.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <!-- Encabezado -->
     <header>
+        <!--Encabezado-->
         <div class="inicio">
-            <!--Menu tipo hambuergesa usado en responsive-->
+            <!--Menu tipo hambuergesa parte  del responsive-->
             <div class="menu-toggle" id="menu-toggle">
                 &#9776; 
             </div>
@@ -21,7 +21,7 @@
                 <div class="logo">
                     <img src="IMAGENES/LOGO.png" alt="Logo" /> 
                 </div>
-                <!--Menu-->
+                <!--Menú-->
                 <ul>
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#">Nuestros Productos</a></li>
@@ -32,27 +32,39 @@
                     <li><a href="#">Registrarse</a></li>
                     <li><a href="#">Login</a></li>
                 </ul>
-                
             </nav>
         </div>
     </header>
-
-    <!-- Seccion Quienes Somos -->
-    <div class="quienessomos">
-    <section>
-        <h1 class="titlesomos">Quiénes Somos</h1>
-        <div>
-            <h2>Nuestra Historia</h2>
-            <p>En La Planta Cervecería no hacemos solo cerveza, desde el 2015 nos hemos dedicado de lleno a nuestro proceso, con los ingredientes de más alta calidad y técnicas vanguardistas. Como resultado nuestras cervezas artesanales son deliciosas, elegantes y auténticas.</p>
-            <p>Nos entusiasma ofrecer lo mejor y probamos nuevos enfoques constantemente para que nuestras cervezas sean siempre las más frescas y originales. Para conocer más, explora nuestro sitio o visítanos.</p>
-        </div>
-    </section>
-    </div>
-    <!--Imagen de fondo-->
-    <div class="imagen">
-    </div>
     
+    <main>
+        <!--Seccion de las reservas-->
+        <section class="escoge_ubicacion">
+            <!--Overlay para opacidad de imagen-->
+            <div class="overlay"></div>
 
+            <h1>Escoge Tu Sede:</h1>
+            <p class="texto">Tenemos Más De Una Sede, Para Continuar, Debes Seleccionar En Cual Quieres Realizar Tu Reserva:</p>
+            <!--Reserva medellin-->
+            <div class="locations">
+                <div class="contenedor_ubicacion">
+                    <h2>LA PLANTA - CERVECERÍA</h2>
+                    <p> Medellín</p>
+                    <p> Cra. 45 #32-127</p>
+                    <p> 3188125476</p>
+                    <a href="https://www.google.com/maps/place/La+Planta+Urban+Pub/@6.2339274,-75.5717153,17z/data=!4m6!3m5!1s0x8e4429743caf5e5f:0x80f55937a271a1e4!8m2!3d6.2339274!4d-75.5717153!16s%2Fg%2F11s7h6pdt8?entry=ttu&g_ep=EgoyMDI0MTAyMy4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="ubicacion">Ver Ubicación</a>
+                </div>
+                <!--Reserva Villavieja-->
+                <div class="contenedor_ubicacion">
+                    <h2>LA PLANTA - CERVECERÍA</h2>
+                    <p>Villavieja</p>
+                    <p>Calle 30 # 44 - 176</p>
+                    <p> 3005905410</p>
+                    <a href="https://www.google.com/maps/place/La+planta+Brew+pub+Tatacoa/@3.2186411,-75.2162339,19z/data=!4m15!1m8!3m7!1s0x8e3b916f811039ef:0x894ed518ed62410f!2sCra.+8+%234-50,+Villavieja,+Huila!3b1!8m2!3d3.2186398!4d-75.2155902!16s%2Fg%2F11jt3d4qzm!3m5!1s0x8e3b91d7528171ff:0x54001d86ee347866!8m2!3d3.2186629!4d-75.2155834!16s%2Fg%2F11h15y1bk2?hl=es&entry=ttu&g_ep=EgoyMDI0MTAyMy4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="ubicacion">Ver Ubicación</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
     <!-- Pie de pagina -->
     <footer>
         <div class="piepagina">
